@@ -4,9 +4,6 @@
   "engines": {
     "node": ">=16.13.0 <17.0.0"
   },
-  "bin": {
-	"create-project": "bin/index.js"
-  },
   "main": "lib/index.js",
   "scripts": {
     "build": "gulp bundle",
