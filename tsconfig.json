@@ -1,0 +1,59 @@
+{
+	"extends": "./node_modules/@microsoft/rush-stack-compiler-4.5/includes/tsconfig-web.json",
+	"compilerOptions": {
+		"target": "ES2015",
+		"forceConsistentCasingInFileNames": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"strict": true,
+		"allowSyntheticDefaultImports": true,
+		"jsx": "react",
+		"declaration": true,
+		"sourceMap": true,
+		"experimentalDecorators": true,
+		"skipLibCheck": true,
+		"outDir": "lib",
+		"inlineSources": false,
+		"strictNullChecks": false,
+		"noUnusedLocals": false,
+		"noImplicitAny": true,
+		"resolveJsonModule": true,
+		"paths": {
+			"@helpers": [
+				"./src/webparts/helloWorld/helpers/index.ts"
+			],
+			"@hooks": [
+				"./src/webparts/helloWorld/hooks/index.ts"
+			],
+			"@layout": [
+				"./src/webparts/helloWorld/components/layout/index.ts"
+			],
+			"@spfx-webpart": [
+				"./src/webparts/helloWorld/HelloWorldWebPart.ts"
+			],
+			"@ui": [
+				"./src/webparts/helloWorld/components/ui"
+			],
+			"@provider": [
+				"./src/webparts/helloWorld/provider/index.ts"
+			]
+		},
+		"typeRoots": [
+			"./node_modules/@types",
+			"./node_modules/@microsoft"
+		],
+		"types": [
+			"webpack-env"
+		],
+		"lib": [
+			"ES2020",
+			"dom",
+			"es2015.collection",
+			"es2015.promise"
+		]
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.tsx"
+	]
+}

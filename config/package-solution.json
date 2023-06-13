@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "netmedia-startnpxproject-client-side-solution",
+    "id": "a9e1a885-face-4098-9a28-054ea3a66cc2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "netmedia-startnpxproject description"
+      },
+      "longDescription": {
+        "default": "netmedia-startnpxproject description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "netmedia-startnpxproject Feature",
+        "description": "The feature that activates elements of the netmedia-startnpxproject solution.",
+        "id": "53187f8c-c004-4a43-b30b-13a44eee7307",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/netmedia-startnpxproject.sppkg"
+  }
+}
