@@ -32,7 +32,7 @@
 				"./src/webparts/helloWorld/HelloWorldWebPart.ts"
 			],
 			"@ui": [
-				"./src/webparts/helloWorld/components/ui"
+				"./src/webparts/helloWorld/components/ui/index.ts"
 			],
 			"@provider": [
 				"./src/webparts/helloWorld/provider/index.ts"
